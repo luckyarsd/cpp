@@ -1,1 +1,1 @@
-# I am a Student of ARSD(DU). I want to be a data scientist in next 5 to 6 years. I will put here my all code that I will practice during DU collage life. I will put here codes of many diifrent problems like ( Python, C++, Sql and many more coding problems ).
+# I am a Student of ARSD(DU). I want to be a data scientist in next 5 to 6 years. I will put here my all codes that I will practice during DU collage life. I will put here codes of many diifrent problems like ( Python, C++, Sql and many more coding problems ).
