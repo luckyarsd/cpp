@@ -14,7 +14,7 @@ int main()
     
 }
 
-//Q1. Print the number 1 to 50 excluding multiple of 3
+//Q2. Print the number 1 to 50 excluding multiple of 3
 #include <iostream>
 using namespace std;
 int main()
