@@ -1,0 +1,26 @@
+//This program is to print rectange with * uisng for loop
+// *********
+// *********
+// *********
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j;
+    cout<<"Enter number of rows: ";
+    cin>>i;
+    cout<<"Enter number of columns: ";
+    cin>>j;
+    
+    for(int x=1;x<=i;x++)
+    {
+        for(int y=1;y<=j;y++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
