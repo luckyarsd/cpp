@@ -60,3 +60,26 @@ int main()
 }
 
 
+//This program is to print traingle with * uisng for loop
+//Enter the length of traingle: 4
+// *
+// **
+// ***
+// ****
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i;
+    cout<<"Enter the length of traingle: ";
+    cin>>i;
+    for(int x=1;x<=i;x++)
+    {   
+        for(int y=1;y<=x;y++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }   
+    return 0;
+}
