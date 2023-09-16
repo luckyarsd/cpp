@@ -24,3 +24,39 @@ int main()
 }
 
 
+//This program is to print hollow rectange with * uisng for loop
+//Enter number of rows: 7
+//Enter number of columns: 9
+// ******
+// *    *
+// *    *
+// ******
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j;
+    cout<<"Enter number of rows: ";
+    cin>>i;
+    cout<<"Enter number of columns: ";
+    cin>>j;
+    
+    for(int x=1;x<=i;x++)
+    {
+        for(int y=1;y<=j;y++)
+        {
+            if(x==1||x==i||y==1||y==j)
+            {
+                cout<<"*";
+            }
+            else
+            {
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
