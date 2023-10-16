@@ -29,3 +29,36 @@ int main()
     }
     
 }
+
+
+//Q3. Print the ascii char of user given number
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Enter the number which you want ascii values : ";
+    int x;
+    cin>>x;
+    cout<<"Acii char of "<<x<<" = "<<(char)x;
+    return 0;
+}
+
+
+
+//Q4. Print the ascii char of user given range of numbers 
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Enter the last number till you want ascii values [max 126] : ";
+    int x;
+    cin>>x;
+    for(int i =0 ; i<=x ; i++){
+        cout<<"Ascii char of "<<i<<" = "<<(char)i<<endl;
+    }
+    return 0;
+}
+
+
