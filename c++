@@ -157,7 +157,7 @@ int main()
     
 }
 
-//Thsi program will show the uses of while loop using brak keyword
+//Thsi program will show the uses of while loop using break keyword
 #include <iostream>
 using namespace std;
 int main()
@@ -200,3 +200,22 @@ int main()
     return 0;
     
 }
+
+
+
+//This program is for showing the uses of typecasting
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char ch='A';     //important ascii to learn A -> 65 , a ->97 , '0' -> 47
+    int ascii1 = (int)ch;   //Typecasting of char to int
+    cout<<ascii1<<endl;
+    
+    int x = 97;
+    char ascii2 = (char)x;   //Typecasting of int to char
+    cout<<ascii2<<endl;
+    return 0;
+}
+
