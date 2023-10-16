@@ -62,3 +62,63 @@ int main()
 }
 
 
+// Q5. Take a number from user and check that given number is even or odd
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+    cout<<"Enter numer to check even of odd :";
+    cin>>num;
+    if (num%2==0){
+        cout<<"Even number"<<endl;
+    }
+    else{
+        cout<<"Odd number"<<endl;
+    }
+    return 0;
+}
+
+//Q6. Take a integer from user and print it's absolute values 
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+    cout<<"Enter integer to get it's obsolute value :";
+    cin>>num;
+    if (num>=0){
+        cout<<"Absolute value of "<<num<<" is "<<num<<endl;
+    }
+    else{
+        
+        cout<<"Absolute value of "<<num<<" is "<<-num<<endl;
+    }
+    return 0;
+}
+
+//Q7. Take input of cost and selling price and calculate profit and loss 
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    int cost , sell_price;
+    cout<<"Enter cost :";
+    cin>>cost;
+    cout<<"Enter selling price :";
+    cin>>sell_price;
+    if (cost < sell_price){
+        cout<<"Profit of "<<sell_price - cost<<endl;
+    }
+    if(cost == sell_price){
+        cout<<"Neither profit nor loss."<<endl;
+    }
+    else{
+        cout<<"Loss of "<<cost - sell_price<<endl;
+    }
+    return 0;
+}
+
