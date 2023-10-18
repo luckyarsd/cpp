@@ -1,4 +1,4 @@
-//Q1. Print the number 1 to 50 excluding multiple of 3
+//Q1. Print the number 1 to 50 excluding multiple of 3.
 #include <iostream>
 using namespace std;
 int main()
@@ -14,7 +14,7 @@ int main()
     
 }
 
-//Q2. Print the number 1 to 50 excluding multiple of 3
+//Q2. Print the number 1 to 50 excluding multiple of 3.
 #include <iostream>
 using namespace std;
 int main()
@@ -31,7 +31,7 @@ int main()
 }
 
 
-//Q3. Print the ascii char of user given number
+//Q3. Print the ascii char of user given number.
 # include <iostream>
 using namespace std;
 
@@ -46,7 +46,7 @@ int main()
 
 
 
-//Q4. Print the ascii char of user given range of numbers 
+//Q4. Print the ascii char of user given range of numbers.
 # include <iostream>
 using namespace std;
 
@@ -62,7 +62,7 @@ int main()
 }
 
 
-// Q5. Take a number from user and check that given number is even or odd
+// Q5. Take a number from user and check that given number is even or odd.
 # include <iostream>
 using namespace std;
 
@@ -80,7 +80,7 @@ int main()
     return 0;
 }
 
-//Q6. Take a integer from user and print it's absolute values 
+//Q6. Take a integer from user and print it's absolute values.
 # include <iostream>
 using namespace std;
 
@@ -99,7 +99,7 @@ int main()
     return 0;
 }
 
-//Q7. Take input of cost and selling price and calculate profit and loss 
+//Q7. Take input of cost and selling price and calculate profit and loss.
 # include <iostream>
 using namespace std;
 
@@ -122,3 +122,22 @@ int main()
     return 0;
 }
 
+//Q8. Find the Factorial of a number using Recursion.
+# include <iostream>
+using namespace std;
+int fac(int num)
+{
+    if (num<=1)
+    {
+        return 1;
+    }
+    return num*fac(num-1);
+}
+int main()
+{
+    int num;
+    cout<<"Enter number to get it's Factorial : ";
+    cin>>num;
+    cout<<"Factorial of "<<num<<" is "<<fac(num);
+    return 0;
+}
