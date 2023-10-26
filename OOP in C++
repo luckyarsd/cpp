@@ -18,3 +18,36 @@ int main()
 
 
 
+//Program to make multiple object of one class
+# include <iostream>
+# include <string>
+using namespace std;
+class Car     //Class definatin
+{
+    public:
+        string car_name;
+        int car_price;
+        int model;
+};
+
+int main()
+{
+    Car data1;    //First object definatin
+    data1.car_name = "Ford";
+    data1.car_price = 10000000;
+    data1.model = 2022;
+    cout<<data1.car_name<<endl;
+    cout<<"inr "<<data1.car_price<<endl;
+    cout<<data1.model<<endl;
+    
+    
+    Car data2;    //Second object definatin
+    data1.car_name = "Rolls-Royce";
+    data1.car_price = 50000000;
+    data1.model = 2021;
+    cout<<data1.car_name<<endl;
+    cout<<"inr "<<data1.car_price<<endl;
+    cout<<data1.model<<endl;
+    
+    return 0;
+}
