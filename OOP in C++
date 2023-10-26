@@ -1,0 +1,20 @@
+//Sample program to show the syntax of class & object in C++
+# include <iostream>
+using namespace std;
+class Maths     //Class defination
+{
+  public:
+    int num1;
+};
+
+int main()
+{
+    Maths number;    //Object defination
+    number.num1 = 15;        
+    cout<<number.num1<<endl;
+    return 0;
+}
+
+
+
+
