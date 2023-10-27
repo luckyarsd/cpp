@@ -6,7 +6,6 @@ class Maths     //Class defination
   public:
     int num1;
 };
-
 int main()
 {
     Maths number;    //Object defination
@@ -29,7 +28,6 @@ class Car     //Class definatin
         int car_price;
         int model;
 };
-
 int main()
 {
     Car data1;    //First object definatin
@@ -39,7 +37,6 @@ int main()
     cout<<data1.car_name<<endl;
     cout<<"inr "<<data1.car_price<<endl;
     cout<<data1.model<<endl;
-    
     
     Car data2;    //Second object definatin
     data1.car_name = "Rolls-Royce";
@@ -65,7 +62,6 @@ class Math
         int num2;
         int sum_num;
 };
-
 int main()
 {
     Math sum;
@@ -80,3 +76,47 @@ int main()
     cout<<"Sum = "<<sum_num;
     return 0;
 }
+
+
+
+// Program that depict the mehod defination inside the class. 
+# include <iostream>
+using namespace std;
+class Car
+{
+    public:
+        void speed()
+        {
+            cout<<"maxspeed = "<<200;
+        }
+    
+};
+int main()
+{
+    Car test;
+    test.speed();
+    return 0;
+}
+
+
+
+
+// Program that depict the mehod defination outside the class. 
+# include <iostream>
+using namespace std;
+class Car
+{
+    public:
+        void speed();
+};
+void Car::speed()
+{
+    cout<<"maxspeed = "<<200;
+}
+int main()
+{
+    Car test;
+    test.speed();
+    return 0;
+}
+
