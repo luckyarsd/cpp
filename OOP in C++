@@ -51,3 +51,32 @@ int main()
     
     return 0;
 }
+
+
+
+
+//Use the concept of class and take two number as input and print it's sum.
+# include <iostream>
+using namespace std;
+class Math
+{
+    public:
+        int num1;
+        int num2;
+        int sum_num;
+};
+
+int main()
+{
+    Math sum;
+    int x , y , sum_num;
+    cout<<"Enter first number : ";
+    cin>>x;
+    cout<<"Enter second number : ";
+    cin>>y;
+    sum.num1 = x;
+    sum.num2 = y;
+    sum_num = sum.num1+sum.num2;
+    cout<<"Sum = "<<sum_num;
+    return 0;
+}
