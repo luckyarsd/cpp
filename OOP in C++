@@ -1,4 +1,4 @@
-//Sample program to show the syntax of class & object in C++
+//Sample program to show the syntax of class & object in C++.
 # include <iostream>
 using namespace std;
 class Maths     //Class defination
@@ -17,7 +17,7 @@ int main()
 
 
 
-//Program to make multiple object of one class
+//Program to make multiple object of one class.
 # include <iostream>
 # include <string>
 using namespace std;
@@ -220,7 +220,7 @@ int main()
 
 
 
-//Program that depict the syntax of encapsulation (.get & .set) methods
+//Program that depict the syntax of encapsulation (.get & .set) methods.
 # include <iostream>
 using namespace std;
 class MyClass
