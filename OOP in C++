@@ -192,3 +192,28 @@ int main()
 
 
 
+//Program that depict the syntax of constructor with parameter outside of class.
+# include <iostream>
+# include <string>
+using namespace std;
+class Men
+{
+    public:
+        string categories;
+        int year;
+        Men(string x , int y);
+};
+Men::Men(string x , int y)
+    {
+        categories = x;
+        year = y;
+    }
+        
+int main()
+{
+    Men sample1("Sigma" , 18);
+    Men sample2("Alpha" , 25);
+    cout<<sample1.year<<" "<<sample1.categories<<endl;
+    cout<<sample2.year<<" "<<sample2.categories<<endl;
+    return 0;
+}
