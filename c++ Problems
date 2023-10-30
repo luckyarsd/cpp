@@ -263,3 +263,26 @@ int main()
 
     return 0;
 }
+
+
+//Q15. Take input from user and check wheter it is a alphabate or not.
+#include <iostream>
+using namespace std;
+int main()
+{
+    char x,y;
+    cout<<"Enter : ";
+    cin>>x;
+    int ascii = int(x);
+    y = ascii;
+    if ((y>=65 and y<=90) or (y>=97 and y<=122))
+    {
+        cout<<"Alphabate.";
+    }
+    else
+    {
+        cout<<"Not a alphabate.";
+    }
+
+    return 0;
+}
