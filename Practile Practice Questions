@@ -194,6 +194,38 @@ int main()
 
 
 
+//9. oder of execution of constructor
+# include <iostream>
+# include <string>
+using namespace std;
+class college
+{
+    public:
+        college()
+        {
+            cout<<"Base constructor."<<endl;
+        }
+};
+
+
+class rooms : public college
+{
+    public:
+        rooms()
+        {
+            cout<<"Derived constructor."<<endl;
+        }
+};
+
+int main()
+{
+    rooms obj1;
+    return 0;
+}
+
+
+
+
 
 //10. copy constructor
 # include <iostream>
