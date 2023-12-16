@@ -132,6 +132,30 @@ int main()
 
 
 
+//6.  Code to show the concept of default arguments
+#include <iostream>
+using namespace std;
+
+// Function to calculate the area of a rectangle with default arguments
+double calculateRectangleArea(double length = 1.0, double width = 1.0) {
+    return length * width;
+}
+
+int main() {
+    // Calling the function without specifying arguments (uses default values)
+    double defaultArea = calculateRectangleArea();
+    std::cout << "Default Area: " << defaultArea << std::endl;
+
+    // Calling the function with specific arguments
+    double customArea = calculateRectangleArea(5.0, 3.0);
+    std::cout << "Custom Area: " << customArea << std::endl;
+
+    return 0;
+}
+
+
+
+
 
 //7. Code to add and substract two matcies.
 #include<iostream>
