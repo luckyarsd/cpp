@@ -1,1 +1,19 @@
+//1. Swapping two variable using third variable.
+# include <iostream>
+using namespace std;
+int main()
+{
+    int a = 5;
+    cout<<"Initially a = "<<a<<endl;
+    int b = 7;
+    cout<<"Initially b = "<<b<<endl;
+    int c;
+    c = a;
+    a = b;
+    b = c;
+    cout<<"Ftinally a = "<<a<<endl;
+    cout<<"Finally b = "<<b<<endl;
+}
+
+
 
