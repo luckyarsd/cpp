@@ -267,3 +267,18 @@ int main()
     sam s , s1,s2;
     return 0;
 }
+
+
+//Static and Dynamic memory allocation.
+# include <iostream>
+using namespace std;
+int main()
+{
+    int Static_x =4;
+    int* Dynamic_x = new int;
+    *Dynamic_x = 5;
+    cout<<"Static = "<<Static_x<<endl;
+    cout<<"Dynamic = "<< *Dynamic_x<<endl;
+    return 0;
+}
+
