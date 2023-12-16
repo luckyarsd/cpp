@@ -216,3 +216,36 @@ int main()
     car c1;
     return 0;
 }
+
+
+
+
+//12. Multi level ingertance
+# include <iostream>
+using namespace std;
+
+class vechile
+{
+    public:
+        vechile()
+        {
+            cout<<"Super car."<<endl;
+        }
+};
+
+class car : public vechile
+{
+    public:
+        car()
+        {
+            cout<<"Spuer cars are too expensive."<<endl;
+        }
+};
+
+class supercar : public car
+{};
+int main()
+{
+    supercar obj;
+    return 0;
+}
