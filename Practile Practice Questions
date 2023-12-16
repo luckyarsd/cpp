@@ -194,6 +194,47 @@ int main()
 
 
 
+
+//10. copy constructor
+# include <iostream>
+# include <string>
+using namespace std;
+class student
+{
+    private:
+    int rollno;
+    string name;
+    public:
+        student(int r , string n)
+        {
+            rollno = r;
+            name = n;
+        }
+        
+        student (student &s)
+        {
+            rollno = s.rollno;
+            name= s.name;
+        }
+        
+        void display()
+        {
+            cout<<"Name = "<<name<<endl;
+            cout<<"Roll no = "<<rollno<<endl;
+        }
+};
+
+int main()
+{
+    student s1(35041 , "Lucky tiwari");
+    s1.display();
+    return 0;
+}
+
+
+
+
+
 //11. Single level inheritance
 # include <iostream>
 using namespace std;
