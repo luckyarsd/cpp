@@ -241,3 +241,29 @@ int main()
     cout<<"Factorial of "<<num<<" is "<<fac(num);
     return 0;
 }
+
+
+//Concept of constructor and destructor
+#include <iostream>
+using namespace std;
+static int count = 0;
+class sam
+{
+    public:
+        sam()
+        {
+            count++;
+            cout<<"Constructor created "<<count<<endl;
+        }
+        ~sam()
+        {
+            cout<<"Destructor created "<<count<<endl;
+            count--;
+        }
+};
+
+int main()
+{
+    sam s , s1,s2;
+    return 0;
+}
