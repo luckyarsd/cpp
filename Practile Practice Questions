@@ -220,7 +220,7 @@ int main()
 
 
 
-//12. Multi level ingertance
+//12. Multi level inheritance
 # include <iostream>
 using namespace std;
 
@@ -231,6 +231,37 @@ class vechile
         {
             cout<<"Super car."<<endl;
         }
+};
+
+class car : public vechile
+{
+    public:
+        car()
+        {
+            cout<<"Spuer cars are too expensive."<<endl;
+        }
+};
+
+class supercar : public car
+{};
+int main()
+{
+    supercar obj;
+    return 0;
+}
+
+
+
+
+//13. Abstract class
+# include <iostream>
+using namespace std;
+
+class vechile
+{
+    public:
+        vechile()  //Pure virtual function
+        { }
 };
 
 class car : public vechile
