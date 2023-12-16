@@ -196,7 +196,6 @@ int main()
 
 //9. oder of execution of constructor
 # include <iostream>
-# include <string>
 using namespace std;
 class college
 {
