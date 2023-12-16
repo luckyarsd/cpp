@@ -280,3 +280,17 @@ int main()
     supercar obj;
     return 0;
 }
+
+
+
+//14. Pure virtual class
+# include <iostream>
+using namespace std;
+class Shape 
+{
+    public:
+        virtual double area() = 0;
+        virtual void draw() = 0; 
+};
+
+
