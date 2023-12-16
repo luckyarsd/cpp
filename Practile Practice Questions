@@ -80,6 +80,33 @@ int main() {
 
 
 
+//4. Code to show the concept the storage variable.
+#include <iostream>
+using namespace std;
+//Global variable
+extern int a = 7;
+int main()
+{
+    cout<<"Global a = "<<a<<endl;
+    
+    //static variable
+    static int b = 5;
+    cout<<"static b = "<<b<<endl;
+    
+    //local variable
+    int c = 7;
+    cout<<"local c = "<<c<<endl;
+    
+    //register variable
+    register int d = 9;
+    cout<<"register d = "<<endl;
+    
+    return 0;
+}
+
+
+
+
 //7. Code to add and substract two matcies.
 #include<iostream>
 using namespace std;
