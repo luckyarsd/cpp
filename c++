@@ -41,7 +41,7 @@ int main()
     }
 }
 
-//This program is show the use of nested loop
+//This program is show the use of nested if
 # include <iostream>
 using namespace std;
 int main()
